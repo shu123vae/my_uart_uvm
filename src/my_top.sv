@@ -1,0 +1,41 @@
+ `timescale 1ns/1ps
+
+`include "uvm_macros.svh"
+`include "my_test.sv"
+`include "rtl_if.sv"
+`include "Uart.sv"
+import uvm_pkg::*;
+
+
+module my_top;
+
+  	rtl_if vif(.*);
+
+  	Uart dut(
+	.Clk(vif.clk), 
+	.Rstn(vif.rst_n), 
+	.SerDataIn(vif.SerDataIn), 
+	.PalDataOut(vif.PalDataOut), 
+	.PalDataOutValid(vif.PalDataOutValid),
+	.PalDataIn(vif.PalDataIn),
+	.PalDataInEn(vif.PalDataInEn),
+	.PalDataInPermit(vif.PalDataInPermit),
+	.SerDataOut(vif.SerDataOut)
+	);
+
+	initial begin
+		`uvm_info("my_top","my_top,begin!",UVM_LOW)
+		uvm_config_db#(virtual rtl_if)::set(null, "*", "rtl_if", vif);
+		run_test("my_test");
+		`uvm_info("my_top","my_top,end!",UVM_LOW)
+	end
+
+ 
+	initial begin
+		vif.rst_n = 0;
+		vif.SerDataIn=1;
+    		#10 vif.rst_n = 1;
+		//$finish;
+  	end
+
+endmodule

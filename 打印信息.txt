@@ -1,0 +1,173 @@
+vsim work.my_top
+# vsim work.my_top 
+# Start time: 13:52:06 on Apr 02,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.my_top_sv_unit(fast)
+# Loading work.my_top(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.rtl_if(fast)
+# Loading F:/InstallationDir/questasim64_10.7c/uvm-1.1d\win64\uvm_dpi.dll
+add wave -position insertpoint  \
+sim:/my_top/vif/BIT_PERIOD \
+sim:/my_top/vif/clk \
+sim:/my_top/vif/rst_n \
+sim:/my_top/vif/SerDataIn \
+sim:/my_top/vif/PalDataOut \
+sim:/my_top/vif/PalDataOutValid \
+sim:/my_top/vif/PalDataIn \
+sim:/my_top/vif/PalDataInEn \
+sim:/my_top/vif/PalDataInPermit \
+sim:/my_top/vif/SerDataOut
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO F:/CodePlatform/UVMProject/uvm_uart/uvm_uart/src/my_top.sv(27) @ 0: reporter [my_top] my_top,begin!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_test.sv(22) @ 0: uvm_test_top [my_test] the my_test new is called!
+# UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_env.sv(23) @ 0: uvm_test_top.env [my_env] the my_env new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_test.sv(28) @ 0: uvm_test_top [my_test] the my_test build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_agent.sv(25) @ 0: uvm_test_top.env.agent [my_agent] the my_agent new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(27) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_model.sv(18) @ 0: uvm_test_top.env.model [my_model] the my_model new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_env.sv(31) @ 0: uvm_test_top.env [my_env] the my_env build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(19) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(19) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_i_monitor.sv(19) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_o_monitor.sv(17) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_o_monitor new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_agent.sv(36) @ 0: uvm_test_top.env.agent [my_agent] the my_agent build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(26) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(23) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_i_monitor.sv(23) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_o_monitor.sv(21) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_monitor build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_model.sv(24) @ 0: uvm_test_top.env.model [my_model] the my_model build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(32) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard build_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(30) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(29) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_i_monitor.sv(29) @ 0: uvm_test_top.env.agent.monitor_i [my_i_monitor] the my_i_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_o_monitor.sv(27) @ 0: uvm_test_top.env.agent.monitor_o [my_o_monitor] the my_o_monitor connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_agent.sv(41) @ 0: uvm_test_top.env.agent [my_agent] the my_agent connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(37) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_env.sv(38) @ 0: uvm_test_top.env [my_env] the my_env connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_test.sv(32) @ 0: uvm_test_top [my_test] the my_test connect_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_test.sv(37) @ 0: uvm_test_top [my_test] the my_test run_phase is called, begin!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_sequence.sv(14) @ 0: reporter@@my_sequence [my_sequence] the my_sequence new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_env.sv(42) @ 0: uvm_test_top.env [my_env] the my_env run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(42) @ 0: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_agent.sv(45) @ 0: uvm_test_top.env.agent [my_agent] the my_agent run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(33) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(42) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor monitor_serial is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 0: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(73) @ 0: uvm_test_top.env.agent.monitor [my_monitor] the my_monitor monitor_parallel is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 0: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(79) @ 0: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out:  x_x_x / parallel_in:  x_x_x
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(34) @ 0: uvm_test_top.env.agent.driver [my_driver] the my_driver run_phase is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(38) @ 0: uvm_test_top.env.agent.driver [my_driver] the count = 1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_sequence.sv(19) @ 10000: reporter@@my_sequence [my_sequence] the my_sequence body is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 10000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(61) @ 488000: uvm_test_top.env.agent.driver [my_driver] the send_serial is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(82) @ 488000: uvm_test_top.env.agent.driver [my_driver] the send_parallel is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(85) @ 47336000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(87) @ 47336000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(89) @ 47336000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif:   0_0 |   x_x | 0_1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(101) @ 142008000: uvm_test_top.env.agent.driver [my_driver] send-PalDataIn:a1 
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_model.sv(29) @ 493368000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 493368000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(47) @ 493368000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(62) @ 493368000: uvm_test_top.env.agent.monitor [my_monitor] mon-SerDataIn:5a recv-Parity:1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 493368000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(85) @ 503128000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 90_1_1 / parallel_in:  0_0_0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(91) @ 503128000: uvm_test_top.env.agent.monitor [my_monitor] mon-PalDataOut:15a
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(54) @ 503128000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(61) @ 503128000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(70) @ 503128000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(77) @ 503128000: uvm_test_top.env.scoreboard [CHECK] Match
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 503128000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(79) @ 503128000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 90_1_1 / parallel_in:  0_0_0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(77) @ 516792000: uvm_test_top.env.agent.driver [my_driver] send-SerDataIn:5a send-Parity:1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(38) @ 516792000: uvm_test_top.env.agent.driver [my_driver] the count = 2
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 516792000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_WARNING F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_sequence.sv(22) @ 516792000: reporter@@my_sequence [RNDFLD] Randomization failed in uvm_do_with action
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(61) @ 517768000: uvm_test_top.env.agent.driver [my_driver] the send_serial is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(82) @ 517768000: uvm_test_top.env.agent.driver [my_driver] the send_parallel is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(85) @ 564616000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(87) @ 848632000: uvm_test_top.env.agent.driver [my_driver] drive_packet, PalDataInPermit=1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(89) @ 848632000: uvm_test_top.env.agent.driver [my_driver] drive_packet vif: 208_0 |   0_0 | 1_1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(101) @ 943304000: uvm_test_top.env.agent.driver [my_driver] send-PalDataIn:a1 
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_model.sv(29) @ 1010648000: uvm_test_top.env.model [my_model] the my_model write is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 1010648000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(47) @ 1010648000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_exp is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(62) @ 1010648000: uvm_test_top.env.agent.monitor [my_monitor] mon-SerDataIn:5a recv-Parity:0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 1010648000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(85) @ 1021384000: uvm_test_top.env.agent.monitor [my_monitor] monitor-end:parallel_out: 90_0_1 / parallel_in:  0_0_0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(91) @ 1021384000: uvm_test_top.env.agent.monitor [my_monitor] mon-PalDataOut:05a
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(54) @ 1021384000: uvm_test_top.env.scoreboard [my_scoreboard] the my_scoreboard write_act is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(61) @ 1021384000: uvm_test_top.env.scoreboard [my_scoreboard] the size of queue is           1
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(70) @ 1021384000: uvm_test_top.env.scoreboard [my_scoreboard] not inject_error
+# UVM_ERROR F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(72) @ 1021384000: uvm_test_top.env.scoreboard [CHECK] Mismatch! Exp: 0x15a_1, Act: 0x05a_0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_transaction.sv(40) @ 1021384000: reporter@@my_transaction [my_transaction] the my_transaction new is called!
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_monitor.sv(79) @ 1021384000: uvm_test_top.env.agent.monitor [my_monitor] monitor-begin:parallel_out: 90_0_1 / parallel_in:  0_0_0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(77) @ 1034072000: uvm_test_top.env.agent.driver [my_driver] send-SerDataIn:5a send-Parity:0
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_driver.sv(38) @ 1034072000: uvm_test_top.env.agent.driver [my_driver] the count = 3
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_test.sv(45) @ 1034072000: uvm_test_top [my_test] the my_test run_phase is called, end!
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 1034072000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO F:\CodePlatform\UVMProject\uvm_uart\uvm_uart\src\my_scoreboard.sv(87) @ 1034072000: uvm_test_top.env.scoreboard [SUMMARY] Test cases: 2, Errors: 1
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   90
+# UVM_WARNING :    1
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CHECK]     2
+# [Questa UVM]     2
+# [RNDFLD]     1
+# [RNTST]     1
+# [SUMMARY]     1
+# [TEST_DONE]     1
+# [my_agent]     4
+# [my_driver]    21
+# [my_env]     4
+# [my_i_monitor]     3
+# [my_model]     4
+# [my_monitor]    15
+# [my_o_monitor]     3
+# [my_scoreboard]    12
+# [my_sequence]     2
+# [my_test]     5
+# [my_top]     1
+# [my_transaction]    10
+# ** Note: $finish    : F:/InstallationDir/questasim64_10.7c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1034072 ns  Iteration: 61  Instance: /my_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at F:/InstallationDir/questasim64_10.7c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Causality operation skipped due to absence of debug database file
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf F:/CodePlatform/UVMProject/uvm_uart/uvm_uart/wave.do
+quit -sim
+# End time: 13:53:43 on Apr 02,2025, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 1
+
+
